@@ -31,14 +31,15 @@ wrk --header "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KH
 
 * **capture_multiple.pcap_Flow.csv**: Multiple machine attack
 
-* Attack machine: Google Cloud E2 micro instances. List of instances:
+Attack machine: Google Cloud E2 micro instances. List of instances:
 
-* |name| zone| internal ip| external ip|
-* |---|---|---|---|
-* |test-instance-1| us-west1-b| 10.138.0.* 2| 34.105.126.61|
-* |test-instance-2| europe-north1-a| 10.166.0.2| 35.228.215.90|
-* |test-instance-3| europe-west2-c| 10.154.0.2| 35.197.230.23|
-* |test-instance-4| europe-west9-a| 10.200.0.2| 34.155.133.57|
+
+|name|zone|internal ip|external ip|
+|---|---|---|---|
+|test-instance-1|us-west1-b|10.138.0.2| 34.105.126.61|
+|test-instance-2|europe-north1-a|10.166.0.2|35.228.215.90|
+|test-instance-3|europe-west2-c|10.154.0.2|35.197.230.23|
+|test-instance-4|europe-west9-a|10.200.0.2|34.155.133.57|
 
 
 Suggest Labeling: Mark all IP flow with Src IP or Dst IP equal to attack IP. See Label-Suggesting.ipynb and Label-Multiple.ipynb for details
